@@ -13,16 +13,6 @@ body {
   background-color: midnightblue;
 }
 
-.header a {
-  float: left;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  text-decoration: none;
-  font-size: 125%; 
-  padding: 25px;
-  gap: 20px;
-}
-
 .header a:hover {
     background-color: midnightblue;
     padding: 15px;
@@ -64,7 +54,7 @@ nav ul{
     list-style-type: none; 
     display: flex;
     justify-content: left;
-    gap: 30px;
+    gap: 10px;
     overflow: hidden;
 } 
 
@@ -77,10 +67,6 @@ nav a{
     font-size: large;
     padding: 15px;
 } 
-
-.active {
-    color: #d80909;
-}
 
 .welcome{
     margin: 15px;
