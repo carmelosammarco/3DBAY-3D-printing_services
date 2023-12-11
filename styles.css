@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     
@@ -40,12 +39,14 @@ li a{
     font-weight: 300; 
     text-align: center;
     font-size: larger;
+    justify-content: center;
 } 
 
 .active {
     color: #d80909;
     font-weight: 600;
     font-size: x-large;
+    justify-content: center;
 }
 
 hr { 
@@ -68,6 +69,7 @@ hr {
 .innerwelcome p{
     font-size: larger;
     font-weight: 500;
+    justify-content: center;
 }
 
 .inserv{
@@ -81,12 +83,14 @@ hr {
     box-shadow: 2px 2px 2px 2px rgb(227, 97, 10);
     border-radius: 20px;
     text-align: center;
+    justify-content: center;
     
 }
 
 .proto img{
    width: 100px;
    height: 100px;
+   justify-content: center;
 } 
 
 .proto p{
@@ -95,29 +99,35 @@ hr {
     margin: 0px;
     margin-bottom: 16px;
     font-size: larger;
+    justify-content: center;
 }
 
 .proto h3{
     display: inline-block;
     margin-bottom: 0px;
     color: rgb(0, 0, 0);
+    justify-content: center;
 }
 
 .services h1{
     text-align: center;
+    justify-content: center;
 }
 
 .choose{
     text-align: center;
+    justify-content: center;
 } 
 
 .choose h1{
     text-align: center;
+    justify-content: center;
 } 
 
 .choose h2{
     color: #1d1f81;
     text-align: center;
+    justify-content: center;
 } 
 
 .one{
@@ -129,16 +139,19 @@ hr {
     height: 220px; 
     border-radius: 20px;
     float: left;
+    justify-content: center;
 }
 
 .text{
     text-align: center;
+    justify-content: center;
     
 }
 
 .text p{
     text-align: center;
     font-size: larger;
+    justify-content: center;
 }
 
 .imgs{
@@ -167,6 +180,7 @@ hr {
 
 .portfolio h1{
     text-align: center;
+    justify-content: center;
 } 
 
 .shop{
@@ -174,12 +188,14 @@ hr {
     background-color: midnightblue;
     font-size: x-large;
     color: whitesmoke; 
+    justify-content: center;
 }
 
 .shop button a{
     text-decoration: none;
     font-weight: bold;
     color: navy;
+    justify-content: center;
 }
 
 .shop button{
@@ -188,41 +204,43 @@ hr {
     background-color: plum;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    justify-content: center;
 }
 
 footer p {
     display: inline-block;
+    justify-content: center;
 }
 
 footer img{
     width: 50px;
     height: 50px;
+    justify-content: center;
 }
 
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px;
     margin-bottom: 0px;
 }
 
 .second{
     text-align: center;
+    justify-content: center;
     
-}
-
-.third p a{
-    color: orangered;
 }
 
 .about{
     margin: 20px;
     text-align: center;
+    justify-content: center;
 }
 
 .about h1{
     text-align: center;
     padding-top: 20px;
+    justify-content: center;
 }
 
 .about p{
@@ -235,6 +253,7 @@ footer{
     width: 700px;
     margin: 10px;
     color: black;
+    justify-content: center;
 }
 
 .about img{
@@ -243,6 +262,7 @@ footer{
     height: 340px;
     position: relative;
     bottom: 10px;
+    justify-content: center;
 }
 
 .journey{
@@ -258,10 +278,12 @@ footer{
     background-repeat: no-repeat;
     background-size: cover; 
     color: white;
+    justify-content: center;
 }
 
 .journey hr{
     width: 50px;
+    justify-content: center;
 }
 
 .block{
