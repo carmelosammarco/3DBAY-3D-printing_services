@@ -65,7 +65,7 @@ hr {
     font-size: larger;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 
@@ -77,10 +77,6 @@ hr {
     left: 40px;
 }
 
-.innerwelcome{
-    width: 55%; 
-} 
-
 .innerwelcome p{
     font-size: larger;
     font-weight: 500;
@@ -88,7 +84,7 @@ hr {
 
 .inserv{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .proto{
@@ -190,7 +186,7 @@ hr {
     background-color: midnightblue;
     font-size: x-large;
     color: whitesmoke; 
-    padding: 20px;
+    padding: 0.5%;
 }
 
 .shop button a{
@@ -200,19 +196,11 @@ hr {
 }
 
 .shop button{
-    padding: 10px;
+    padding: 0.5%;
     font-size: large;
     background-color: plum;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-#para{
-    width: 330px;
-    display: inline-block;
-    color:rebeccapurple;
-    font-size: large;
-    font-weight: bold;
 }
 
 footer p {
