@@ -11,6 +11,7 @@ body {
 .header {
   overflow: hidden;
   background-color: midnightblue;
+  display: flex;
 }
 
 hr { 
@@ -23,7 +24,6 @@ hr {
 
 nav {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     background-color: midnightblue ;
     justify-content: space-between;
@@ -35,12 +35,12 @@ nav ul{
     list-style-type: none; 
     display: flex;
     justify-content: left;
-    gap: 30px;
+    gap: 2%;
     overflow: hidden;
 } 
 
 nav a{
-    display:block;
+    display:flex;
     text-decoration: none;
     color: whitesmoke;
     font-weight: 600; 
