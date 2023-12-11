@@ -13,16 +13,16 @@ body {
   background-color: midnightblue;
   display: flex;
   justify-content: center;
-  margin-right: 30%;
-  margin-left: 30%;
+  margin-right: 20%;
+  margin-left: 20%;
     
 }
 
 nav {
     display: flex;
-    align-items: center;
     background-color: midnightblue ;
     justify-content: center;
+    display: inline-block;
     
 }
 
@@ -31,36 +31,28 @@ nav ul{
     list-style-type: none; 
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 5%;
     
 } 
 
-nav li{
+li a{
     display:flex;
     text-decoration: none;
     color: whitesmoke;
-    font-weight: 600; 
+    font-weight: 300; 
     text-align: center;
-    font-size: large;
-    padding: 15px;
-} 
-
-nav a{
-    display:flex;
-    text-decoration: none;
-    color: whitesmoke;
-    font-weight: 600; 
-    text-align: center;
-    font-size: large;
+    font-size: larger;
 } 
 
 .active {
     color: #d80909;
+    font-weight: 600;
+    font-size: x-large;
 }
 
 hr { 
     width: 1000px;
-    height:2px;
+    height:3px;
     border-width:0;
     color:rgb(9, 9, 9);
     background-color:rgb(11, 10, 10); 
