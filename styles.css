@@ -5,18 +5,22 @@ body {
     background-attachment: fixed;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    
 }
 
 .header {
   background-color: midnightblue;
   display: flex;
+  justify-content: center;
+    
 }
 
 nav {
     display: flex;
     align-items: center;
     background-color: midnightblue ;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
@@ -24,7 +28,7 @@ nav ul{
     background-color: midnightblue ;
     list-style-type: none; 
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 2%;
     
 } 
@@ -67,14 +71,6 @@ hr {
     text-align: center;
     justify-content: center;
     
-}
-
-.welcome img{
-    width: 400px;
-    height: 260px; 
-    float: right; 
-    position: relative;
-    left: 40px;
 }
 
 .innerwelcome p{
