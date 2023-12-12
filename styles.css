@@ -1,4 +1,4 @@
-htlm, body {
+body {
     background-image: url('assets/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,8 @@ htlm, body {
 
 #tutto {
     margin: 0 auto;      /* centrare nei browser standard */
-    text-align: center;        /* per correggere il center del body */
+    text-align: center; 
+    justify-content: center;       /* per correggere il center del body */
 
 }
 .header {
@@ -260,13 +261,65 @@ footer{
 }
 
 .block{
-    margin: 1%;
+    margin: 2%;
     margin-bottom: 1%;
     display: flex;
     justify-content: center;
     gap: 2%;
 }
 
+
+
+
+
 .contact{
     text-align: center;
+}
+
+.contact img{
+    display: inline-block;
+    max-width: 100%;
+}
+.contact h1{
+    color: navy;
+    text-align: center;
+}
+.contact p{
+    color: #1d4175;
+    text-align: center;
+    font-size: x-large;
+}
+.phone{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;                
+    padding: 1%;
+    text-align: center;
+    position: relative;
+    background-color: rgb(11, 101, 11,0.4);
+}
+.phone p{
+    font-size: larger;
+}
+.email{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 5% solid black;
+    border-radius: 5%;
+    box-shadow: 0 5% 5% 0 rgba(0, 0, 0, 0.2), 0 5% 5% 0 rgba(0, 0, 0, 0.19);
+    background-color: #97c6d8;
+    font-size: larger;
+    padding: 1%;
+    margin: 1%;
+}
+.email img{
+    width: 15%;
+    width: 15%;
+}
+.box{
+    display: flex;
+    gap: 1%;
+    margin: 1%;
+    justify-content: center;
 }
