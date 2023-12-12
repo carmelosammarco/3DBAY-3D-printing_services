@@ -140,6 +140,12 @@ hr {
     width: 100%;
 }
 
+.para {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
 
 .imgs{
     display: grid;
