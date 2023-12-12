@@ -257,11 +257,11 @@ footer{
 }
 
 .block{
-    margin: 100px;
-    margin-bottom: 0px;
-    display: flex;
+    margin: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
     justify-content: center;
-    gap: 100px;
+    gap: 2%;
 }
 
 .contact{
