@@ -316,3 +316,22 @@ footer{
     margin: 1%;
     justify-content: center;
 }
+
+.quote{
+    display: inline-block;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;  
+    margin-right: 15%;
+    margin-left: 15%;
+    max-width: 100;
+
+}
+
+.quote iframe{
+    display: inline-flex;
+    justify-content: center;  
+    width: 900px;
+    height: 600px;
+}
+
