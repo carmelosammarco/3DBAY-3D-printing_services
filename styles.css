@@ -19,6 +19,7 @@ htlm, body {
   background-color: midnightblue;
   justify-content: center;
   max-width: 100%;
+  text-align: center; 
     
 }
 
@@ -27,6 +28,7 @@ nav {
     background-color: midnightblue ;
     justify-content: center;
     display: inline-block;
+    text-align: center; 
     
 }
 
@@ -36,6 +38,7 @@ nav ul{
     display: flex;
     justify-content: center;
     gap: 10%;
+    text-align: center; 
     
 } 
 
@@ -241,12 +244,12 @@ footer{
 }
 
 .journey{
-    display:flex;
-    width: 33%;
-    padding: 28px;
+    display:inline-block;
+    max-width: 100%;
+    padding: 1%;
     font-size: larger;
     text-align: center;
-    border:1px solid #1d6981;
+    border:3% solid #000000;
     border: double;
     /* background-color: rgb(150, 194, 237); */
     background-image: url("./assets/th.jpg");
@@ -259,7 +262,7 @@ footer{
 .block{
     margin: 1%;
     margin-bottom: 1%;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     gap: 2%;
 }
