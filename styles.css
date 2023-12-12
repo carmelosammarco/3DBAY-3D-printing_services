@@ -327,6 +327,18 @@ footer{
     max-width: 100;
 }
 
+.quote p{
+    display: inline-block;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;  
+    margin-right: 30%;
+    margin-left: 30%;
+    max-width: 100;
+}
+
+
+
 .quote iframe{
     display: inline-flex;
     justify-content: center;  
