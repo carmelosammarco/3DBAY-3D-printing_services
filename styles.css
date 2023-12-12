@@ -114,21 +114,6 @@ hr {
     justify-content: center;
 }
 
-.choose{
-    text-align: center;
-    justify-content: center;
-} 
-
-.choose h1{
-    text-align: center;
-    justify-content: center;
-} 
-
-.choose h2{
-    color: #1d1f81;
-    text-align: center;
-    justify-content: center;
-} 
 
 .one{
     justify-content: center;
@@ -143,17 +128,6 @@ hr {
     justify-content: center;
 }
 
-.text{
-    text-align: center;
-    justify-content: center;
-    
-}
-
-.text p{
-    text-align: center;
-    font-size: larger;
-    justify-content: center;
-}
 
 .imgs{
     display: grid;
@@ -179,11 +153,6 @@ hr {
     border: 2px solid black;
 }
 
-.portfolio h1{
-    text-align: center;
-    justify-content: center;
-} 
-
 .shop{
     text-align: center;
     background-color: midnightblue;
@@ -195,7 +164,7 @@ hr {
 .shop button a{
     text-decoration: none;
     font-weight: bold;
-    color: navy;
+    color: rgb(0, 0, 0);
     justify-content: center;
 }
 
@@ -257,15 +226,6 @@ footer{
     justify-content: center;
 }
 
-.about img{
-    float: right;
-    width: 400px;
-    height: 340px;
-    position: relative;
-    bottom: 10px;
-    justify-content: center;
-}
-
 .journey{
     display: inline-block;
     width: 33%;
@@ -279,11 +239,6 @@ footer{
     background-repeat: no-repeat;
     background-size: cover; 
     color: white;
-    justify-content: center;
-}
-
-.journey hr{
-    width: 50px;
     justify-content: center;
 }
 
