@@ -68,29 +68,31 @@ hr {
 .welcome{
     font-size: larger;
     text-align: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .innerwelcome p{
     font-size: larger;
     font-weight: 500;
     justify-content: center;
+    
 }
 
 .inserv{
     display: flex;
     justify-content: center;
-    gap:1%;
+    margin: 1%;
+    
 }
 
 .proto{
-    display: inline-block;
+    display:inline-block;
     border: 2px solid rgb(232, 56, 12);
     box-shadow: 2px 2px 2px 2px rgb(227, 97, 10);
     border-radius: 20px;
     text-align: center;
     justify-content: center;
+    margin:1%;
     
 }
 
@@ -106,7 +108,7 @@ hr {
 } 
 
 .proto p{
-    display: inline-block;
+    display:flex;
     width: 280px; 
     margin: 0px;
     margin-bottom: 16px;
@@ -115,7 +117,7 @@ hr {
 }
 
 .proto h3{
-    display: inline-block;
+    display:flex;
     margin-bottom: 0px;
     color: rgb(0, 0, 0);
     justify-content: center;
@@ -190,7 +192,7 @@ hr {
 }
 
 footer p {
-    display: inline-block;
+    display:flex;
     justify-content: center;
 }
 
@@ -214,7 +216,7 @@ footer{
 }
 
 .about{
-    margin: 20px;
+    display:flex;
     text-align: center;
     justify-content: center;
 }
@@ -226,7 +228,7 @@ footer{
 }
 
 .about p{
-    display: inline-block;
+    display:flex;
     border-top: 2px solid orangered;
     border-bottom: 2px solid orangered;
     border-width: 20px;
@@ -239,7 +241,7 @@ footer{
 }
 
 .journey{
-    display: inline-block;
+    display:flex;
     width: 33%;
     padding: 28px;
     font-size: larger;
