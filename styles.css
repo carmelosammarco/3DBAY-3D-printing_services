@@ -58,9 +58,7 @@ hr {
 }
 
 .welcome{
-    margin: 15px;
     font-size: larger;
-    display: flex;
     text-align: center;
     justify-content: center;
     
