@@ -87,6 +87,10 @@ hr {
     
 }
 
+.services{
+    justify-content: center;
+}
+
 .proto img{
    width: 100px;
    height: 100px;
@@ -109,7 +113,7 @@ hr {
     justify-content: center;
 }
 
-.services h1{
+.services h3{
     text-align: center;
     justify-content: center;
 }
