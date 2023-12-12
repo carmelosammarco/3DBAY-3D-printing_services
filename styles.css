@@ -134,7 +134,7 @@ hr {
 
 
 .one{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     text-align: center;
     width: 100%;
