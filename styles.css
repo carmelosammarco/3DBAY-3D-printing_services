@@ -85,14 +85,14 @@ hr {
 .inserv{
     display: flex;
     justify-content: center;
-    margin: 1%;
+    margin: 0.2%;
     
 }
 
 .proto{
     display:inline-block;
     border: 2px solid rgb(232, 56, 12);
-    box-shadow: 2px 2px 2px 2px rgb(227, 97, 10);
+    box-shadow: 2px 2px 2px 2px  midnightblue;
     border-radius: 20px;
     text-align: center;
     justify-content: center;
@@ -101,28 +101,29 @@ hr {
 }
 
 .services{
+    display: flex;
     justify-content: center;
     max-width: 100%;
 }
 
 .proto img{
-   width: 100px;
-   height: 100px;
+   width: 75px;
+   height: 75px;
    justify-content: center;
 } 
 
 .proto p{
     display:flex;
-    width: 280px; 
-    margin: 0px;
-    margin-bottom: 16px;
+    width: 200px; 
+    margin: 0%;
+    margin-bottom: 0%;
     font-size: larger;
     justify-content: center;
 }
 
 .proto h3{
     display:flex;
-    margin-bottom: 0px;
+    margin-bottom: 1%;
     color: rgb(0, 0, 0);
     justify-content: center;
 }
