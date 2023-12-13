@@ -318,27 +318,23 @@ footer{
 }
 
 .quote{
-    display: inline-block;
+    display: inline-flexbox;
     font-size: larger;
     text-align: center;
     justify-content: center;  
-    margin-right: 15%;
-    margin-left: 15%;
-    max-width: 100;
+    max-width: 100%;
 }
 
 .quote p{
-    display: inline-block;
     font-size: larger;
     text-align: center;
     justify-content: center;  
     margin-right: 5%;
     margin-left: 5%;
-    max-width: 100;
+    max-width: 100%;
 }
 
 .quote h2{
-    display: flex;
     font-size: larger;
     text-align: center;
     justify-content: center;  
@@ -346,7 +342,6 @@ footer{
 
 
 .quote iframe{
-    display: inline-block;
     justify-content: center;  
     width: 900px;
     height: 600px;
