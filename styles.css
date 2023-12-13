@@ -19,24 +19,21 @@ body {
 
 .page-header {
     background-color: midnightblue;
-    padding: 1%;
     display: flex;
     justify-content:center;
 }
 
 .nav-bar {
     display: flex;
-    margin-inline: 3%;
     justify-content: center;
     text-align: center;
     color: midnightblue;
-    gap: 10%;
     
 }
   
 .nav-bar li {
     color: midnightblue;
-    padding:0%;
+    padding: 10px;
     font-weight: 300; 
     font-size: larger;
     text-decoration: none;
@@ -344,7 +341,7 @@ footer{
 
 .quote iframe{
     justify-content: center;  
-    width: 700px;
-    height: 700px;
+    width: 25%;
+    height: 600px;
 }
 
