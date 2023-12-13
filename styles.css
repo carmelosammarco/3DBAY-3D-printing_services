@@ -16,32 +16,31 @@ body {
     justify-content: center;       /* per correggere il center del body */
 
 }
-.header {
-  background-color: midnightblue;
-  justify-content: center;
-  max-width: 100%;
-  text-align: center; 
-    
+
+.page-header {
+    background-color: midnightblue;
+    padding: 1%;
+    display: flex;
+    justify-content:center;
 }
 
-nav {
+.nav-bar {
     display: flex;
-    background-color: midnightblue ;
+    margin-inline: 3%;
     justify-content: center;
-    display: inline-block;
-    text-align: center; 
-    
-}
-
-nav ul{
-    background-color: midnightblue ;
-    list-style-type: none; 
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    color: midnightblue;
     gap: 10%;
-    text-align: center; 
     
-} 
+}
+  
+.nav-bar li {
+    color: midnightblue;
+    padding:0%;
+    font-weight: 300; 
+    font-size: larger;
+    text-decoration: none;
+}
 
 li a{
     display:flex;
@@ -58,8 +57,9 @@ li a{
     color: #d80909;
     font-weight: 600;
     font-size: x-large;
-    justify-content: center;
 }
+
+
 
 hr { 
     width: 1000px;
