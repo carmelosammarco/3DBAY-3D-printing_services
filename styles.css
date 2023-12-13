@@ -332,8 +332,8 @@ footer{
     font-size: larger;
     text-align: center;
     justify-content: center;  
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     max-width: 100;
 }
 
@@ -345,9 +345,8 @@ footer{
 }
 
 
-
 .quote iframe{
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;  
     width: 900px;
     height: 600px;
