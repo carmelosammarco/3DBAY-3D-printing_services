@@ -157,8 +157,8 @@ hr {
 
 .sketchfab{
     display: grid;
-    grid-template-rows: repeat(3,200px);
-    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(4,200px);
+    grid-template-columns: repeat(3,200px);
     gap: 1%;
     margin: 1%; 
     justify-content: center;
@@ -343,7 +343,7 @@ footer{
 
 .quote iframe{
     justify-content: center;  
-    width: 700px;
+    width: 600px;
     height: 600px;
 }
 
