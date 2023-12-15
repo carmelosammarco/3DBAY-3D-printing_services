@@ -19,7 +19,7 @@ body {
 
 .page-header {
     background-color: midnightblue;
-    display: flex;
+    display: inline-flex;
     text-align: center;
     justify-content:center;
     
