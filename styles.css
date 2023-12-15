@@ -167,7 +167,7 @@ hr {
 }
 
 
-.shop{
+/*.shop{
     justify-content: center;
     background-color: midnightblue;
     font-size: x-large;
@@ -187,11 +187,12 @@ hr {
     border: none;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     justify-content: center;
-}
+}*/
 
 footer p {
     display:flex;
     justify-content: center;
+    
 }
 
 footer img{
@@ -206,6 +207,8 @@ footer{
     margin: 20px;
     margin-bottom: 0px;
     width: 100%;
+    background-color: midnightblue;
+    color: whitesmoke;
 }
 
 .second{
