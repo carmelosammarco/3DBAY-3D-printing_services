@@ -8,12 +8,13 @@ body {
     text-align: center;    /* per far contento IE6- */
     font-size: 100%;
     width: 100%;           /* altrimenti il margin sotto non ha riferimenti */  
+    display: inline-flex;
 }
 
 #tutto {
     margin: 0 auto;      /* centrare nei browser standard */
     text-align: center; 
-    justify-content: center;       /* per correggere il center del body */
+    justify-content: center;      /* per correggere il center del body */
 
 }
 
@@ -167,11 +168,10 @@ hr {
 
 
 .shop{
-    text-align: center;
+    justify-content: center;
     background-color: midnightblue;
     font-size: x-large;
     color: whitesmoke; 
-    justify-content: center;
 }
 
 .shop button a{
@@ -182,7 +182,6 @@ hr {
 }
 
 .shop button{
-    padding: 0.5%;
     font-size: large;
     background-color: plum;
     border: none;
