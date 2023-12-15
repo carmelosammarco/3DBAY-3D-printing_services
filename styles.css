@@ -161,7 +161,7 @@ hr {
     grid-template-columns: repeat(3,200px);
     gap: 5%;
     margin: 0%; 
-    justify-content: left;
+    justify-content: center;
     max-width: 100%;
 }
 
