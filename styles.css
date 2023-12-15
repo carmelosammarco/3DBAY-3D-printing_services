@@ -189,7 +189,6 @@ hr {
 }*/
 
 footer p {
-    display:flex;
     justify-content: center;
     
 }
@@ -203,11 +202,10 @@ footer img{
 footer{
     display: flex;
     justify-content: center;
-    margin: 20px;
-    margin-bottom: 0px;
-    width: 100%;
+    text-align: center;
     background-color: midnightblue;
     color: whitesmoke;
+    width: 100%;
 }
 
 .second{
