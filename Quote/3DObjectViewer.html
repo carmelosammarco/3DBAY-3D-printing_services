@@ -51,7 +51,7 @@
 
 			var container, camera, scene, renderer, controls, light, vol, mesh, height, heightFinal, width, widthFinal, depth, depthFinal;
 
-			var density = parseFloat("1.3");
+			var density = parseFloat("1.29");
 			var filament_cost = parseFloat("35");
 			var filament_diameter = parseFloat("1.75");
 			var printing_speed = parseFloat("150");
@@ -218,7 +218,7 @@
 
 						if (minutes==0){minutes=1;}
 
-						var finalCost =  filament_cost * weightFinal  /  1000 ;
+						var finalCost = weightFinal * filament_cost / 1000 ;
 						finalCost = parseFloat(finalCost).toFixed(2);
 
 						var myworkfactor = 2.5;
@@ -389,7 +389,7 @@
 				{
 				var volumeFinal = vol / 1000;volumeFinal = volumeFinal.toFixed(2);
 				var weightFinal = volumeFinal * density;weightFinal = weightFinal.toFixed(2);
-				var finalCost =  filament_cost * weightFinal / 1000 ;
+				var finalCost = weightFinal * filament_cost / 1000;
 				finalCost = parseFloat(finalCost).toFixed(2);
 				document.getElementById("costValue").innerHTML = finalCost;
 
@@ -432,7 +432,7 @@
 				minutes = parseFloat(minutes).toFixed(0);
 
 				if (minutes==0){minutes=1;}
-				
+
 				document.getElementById("diameterValue").innerHTML = filament_diameter;
 				document.getElementById("lengthValue").innerHTML = filament_length;
 				document.getElementById("hoursValue").innerHTML = hours;
