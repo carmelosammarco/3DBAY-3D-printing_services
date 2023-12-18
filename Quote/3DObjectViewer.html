@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>3D-PRINT production calculator</title>
+		<title>3D-PRINT cost calculator</title>
 		<link rel="stylesheet" type="text/css" href="3DObjectViewer.css">
 		<meta name="theme-color" content="#3f729b"/>
 		<meta name="viewport" content="width=380, initial-scale=1, maximum-scale=1"/>
@@ -52,7 +52,7 @@
 			var container, camera, scene, renderer, controls, light, vol, mesh, height, heightFinal, width, widthFinal, depth, depthFinal;
 
 			var density = parseFloat("1.29");
-			var filament_cost = parseFloat("50");
+			var filament_cost = parseFloat("35");
 			var filament_diameter = parseFloat("1.75");
 			var printing_speed = parseFloat("150");
 
@@ -221,7 +221,7 @@
 						var finalCost = weightFinal * filament_cost / 1000 ;
 						finalCost = parseFloat(finalCost).toFixed(2);
 
-						var myworkfactor = 5
+						var myworkfactor = 1
 						var final = finalCost * myworkfactor;
 						final = parseFloat(final).toFixed(2);
 
@@ -393,7 +393,7 @@
 				finalCost = parseFloat(finalCost).toFixed(2);
 				document.getElementById("costValue").innerHTML = finalCost;
 
-				var myworkfactor = 5
+				var myworkfactor = 1
 				var final = finalCost * myworkfactor; final = final.toFixed(2);
 				document.getElementById("finalcostValue").innerHTML = final;
 				}
