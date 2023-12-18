@@ -216,8 +216,7 @@
 						var minutes = (filament_length / printing_speed) % 60;
 						minutes = parseFloat(minutes).toFixed(0);
 
-						/*if (minutes==0){minutes=1;}*/
-						if (minutes<60){minutes=60;}
+						if (minutes==0){minutes=1;}
 
 
 						var finalCost =  filament_cost * weightFinal  /  1000 ;
@@ -433,8 +432,8 @@
 				var minutes = (filament_length / printing_speed) % 60;
 				minutes = parseFloat(minutes).toFixed(0);
 
-				/*if (minutes==0){minutes=1;}*/
-				if (minutes<60){minutes=60;}
+				if (minutes==0){minutes=1;}
+				
 
 				document.getElementById("diameterValue").innerHTML = filament_diameter;
 				document.getElementById("lengthValue").innerHTML = filament_length;
