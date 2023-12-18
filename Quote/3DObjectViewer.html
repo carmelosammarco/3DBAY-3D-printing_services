@@ -213,7 +213,7 @@
 						var hours = Math.floor((filament_length / printing_speed) / 60);
 						hours = parseFloat(hours).toFixed(0);
 
-						if (hours==0){hours=1;}
+						if (hours<1){hours=1;}
 
 						var minutes = (filament_length / printing_speed) % 60;
 						minutes = parseFloat(minutes).toFixed(0);
