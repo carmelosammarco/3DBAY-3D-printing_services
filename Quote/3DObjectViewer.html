@@ -221,7 +221,7 @@
 						finalCost = parseFloat(finalCost).toFixed(2);
 
 						var myworkfactor = 3;
-						var final = parseFloat((finalCost + 4 + 0.26) * myworkfactor).toFixed(2);
+						var final = (finalCost + 4 + 0.26) * myworkfactor ;
 						final = parseFloat(final).toFixed(2);
 
 						document.getElementById("container2").style.display="block";
@@ -399,7 +399,7 @@
 				minutes = parseFloat(minutes).toFixed(0);
 
 				var myworkfactor = 3;
-				var final = parseFloat((finalCost + 4 + 0.26) * myworkfactor).toFixed(2); 
+				var final = (finalCost + 4 + 0.26) * myworkfactor ; 
 				final = parseFloat(final).toFixed(2);
 				document.getElementById("finalcostValue").innerHTML = final;
 				}
