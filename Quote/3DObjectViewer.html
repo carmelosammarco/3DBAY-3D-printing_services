@@ -221,7 +221,7 @@
 						finalCost = parseFloat(finalCost).toFixed(2);
 
 						var myworkfactor = 3;
-						var final = finalCost * myworkfactor ;
+						var final = finalCost  *  myworkfactor ;
 						final = parseFloat(final).toFixed(2);
 
 						document.getElementById("container2").style.display="block";
@@ -392,15 +392,8 @@
 				finalCost = parseFloat(finalCost).toFixed(2);
 				document.getElementById("costValue").innerHTML = finalCost;
 
-				var hours = Math.floor((filament_length / printing_speed) / 60);
-				hours = parseFloat(hours).toFixed(0);
-
-				var minutes = (filament_length / printing_speed) % 60;
-				minutes = parseFloat(minutes).toFixed(0);
-
 				var myworkfactor = 3;
-				var final = finalCost  * myworkfactor ; 
-				final = parseFloat(final).toFixed(2);
+				var final = finalCost  *  myworkfactor ; final = final.toFixed(2);
 				document.getElementById("finalcostValue").innerHTML = final;
 				}
 
