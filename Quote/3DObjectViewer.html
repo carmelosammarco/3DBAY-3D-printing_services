@@ -391,7 +391,7 @@
 				var finalCost = weightFinal * filament_cost / 1000;
 				finalCost = parseFloat(finalCost).toFixed(2);
 				document.getElementById("costValue").innerHTML = finalCost;
-				
+
 				var hours = Math.floor((filament_length / printing_speed) / 60);
 				hours = parseFloat(hours).toFixed(0);
 
@@ -399,7 +399,8 @@
 				minutes = parseFloat(minutes).toFixed(0);
 
 				var myworkfactor = 3;
-				var final = parseFloat((finalCost + hours + minutes) * myworkfactor).toFixed(2); final = final.toFixed(2);
+				var final = parseFloat((finalCost + hours + minutes) * myworkfactor).toFixed(2); 
+				final = parseFloat(final).toFixed(2);
 				document.getElementById("finalcostValue").innerHTML = final;
 				}
 
