@@ -298,6 +298,7 @@ footer{
     text-align: center;
 }
 .contact p{
+    display: flex;
     color: #1d4175;
     text-align: center;
     font-size: x-large;
@@ -338,7 +339,7 @@ footer{
 }
 
 .quote{
-    display: inline-flexbox;
+    display: flex;
     font-size: larger;
     text-align: center;
     justify-content: center;  
