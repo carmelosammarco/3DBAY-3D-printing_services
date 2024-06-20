@@ -338,7 +338,7 @@ footer{
 }
 
 .quote{
-    display: inline-flex;
+    display:inline-flexbox;
     font-size: larger;
     text-align: center;
     justify-content: center;  
