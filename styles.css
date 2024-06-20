@@ -41,15 +41,6 @@ hr {
     max-width: 100%;
 }
 
-.quote p{
-    font-size: larger;
-    text-align: center;
-    justify-content: center;  
-    margin-right: 5%;
-    margin-left: 5%;
-    max-width: 100%;
-}
-
 .quote h2{
     font-size: larger;
     text-align: center;
@@ -59,7 +50,7 @@ hr {
 
 .quote iframe{
     justify-content: center;  
-    width: 800px;
-    height: 600px;
+    width: 900px;
+    height: 700px;
 }
 
