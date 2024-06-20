@@ -10,25 +10,6 @@ body {
                /* altrimenti il margin sotto non ha riferimenti */  
 }
 
-#tutto {
-    margin: 1% 1%;      /* centrare nei browser standard */
-    text-align: center; 
-    justify-content: center;      /* per correggere il center del body */
-
-}
-
-.contact{
-    text-align: center;
-    font-size: small;
-    justify-content: center;
-}
-
-.contact h1{
-    color: navy;
-    text-align: center;
-    justify-content: center;
-}
-
 hr { 
     width: 1000px;
     height:3px;
