@@ -11,7 +11,7 @@ body {
 }
 
 #tutto {
-    /*margin: 1% 1%;      /* centrare nei browser standard */
+    margin: 2% 20%;      /* centrare nei browser standard */
     text-align: center; 
     justify-content: center;      /* per correggere il center del body */
 
