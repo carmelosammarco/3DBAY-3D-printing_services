@@ -338,7 +338,6 @@ footer{
 }
 
 .quote{
-    display:inline-flexbox;
     font-size: larger;
     text-align: center;
     justify-content: center;  
