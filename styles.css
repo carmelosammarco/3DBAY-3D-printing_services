@@ -20,11 +20,13 @@ body {
 .contact{
     text-align: center;
     font-size: small;
+    justify-content: center;
 }
 
 .contact h1{
     color: navy;
     text-align: center;
+    justify-content: center;
 }
 
 hr { 
