@@ -10,25 +10,8 @@ body {
                /* altrimenti il margin sotto non ha riferimenti */  
 }
 
-
-h2{
-    font-size: medium;
-    text-align: center;
-    justify-content: center;  
-}
-
-p{
-    color: blue;
-    font-size: large;
-    text-align: center;
-    justify-content: center;  
-}
-
-
 iframe{
     justify-content: center;  
-    width: 900px;
-    height: 700px;
 }
 
 .center {
