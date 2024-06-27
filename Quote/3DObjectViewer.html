@@ -15,6 +15,16 @@
 		</div>
 		<div class="content">
 			<div id="container"></div>
+
+
+            <div class="container3">
+				<div class="leftitem">
+					<input type="file" id="modelOBJ" onChange="runViewer();" disabled>
+				</div>
+			</div>
+
+
+
 			<div id="container2">
 				<p style="color: yellow; ">ITEM SIZES:</p>
 				<span id="volumeLabel"></span>:&nbsp;<span id="volumeValue"></span>&nbsp;cm3<br />
@@ -33,13 +43,14 @@
 				<span id="timeLabel"></span>:&nbsp;<span id="hoursValue"></span>&nbsp;<span id="hoursLabel"></span>&nbsp;<span id="minutesValue"></span>&nbsp;<span id="minutesLabel"></span><br />
 				<hr class="separator"/><br />
 				<span id="FinalcostLabel" style="color: red;"></span>:&nbsp;€<span id="finalcostValue"></span>
-
 			</div>
+
 			<div class="container3">
 				<div class="leftitem">
 					<input type="file" id="modelOBJ" onChange="runViewer();" disabled>
 				</div>
 			</div>
+			
 		</div>
 
 		 <script src="3DObjectViewer.js"></script>
